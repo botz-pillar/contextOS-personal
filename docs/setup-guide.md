@@ -20,13 +20,13 @@
 
 ### With a team (includes shared-context submodule)
 ```bash
-git clone --recurse-submodules https://github.com/botz-pillar/contextOS-personal.git ~/context-os
+git clone --recurse-submodules https://github.com/joshbotz/contextOS-personal.git ~/context-os
 cd ~/context-os
 ```
 
 ### Solo (no team)
 ```bash
-git clone https://github.com/botz-pillar/contextOS-personal.git ~/context-os
+git clone https://github.com/joshbotz/contextOS-personal.git ~/context-os
 cd ~/context-os
 ```
 

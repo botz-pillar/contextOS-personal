@@ -44,8 +44,8 @@ Every time you open an AI tool, you start from zero. You re-explain your role, y
 
 | Repo | What It Is | Who Updates It |
 |------|-----------|----------------|
-| [contextOS-personal](https://github.com/botz-pillar/contextOS-personal) (this repo) | Template for your personal AI context | You (your fork) |
-| [contextOS-team](https://github.com/botz-pillar/contextOS-team) | Team knowledge base, workflows, prompts | Team via PRs |
+| [contextOS-personal](https://github.com/joshbotz/contextOS-personal) (this repo) | Template for your personal AI context | You (your fork) |
+| [contextOS-team](https://github.com/joshbotz/contextOS-team) | Team knowledge base, workflows, prompts | Team via PRs |
 
 The team context is included as a git submodule. Claude Code reads it seamlessly — no special config needed. **You can skip it if you're a solo user** — ContextOS Personal works standalone.
 
@@ -55,14 +55,14 @@ The team context is included as a git submodule. Claude Code reads it seamlessly
 
 ### With a team
 ```bash
-git clone --recurse-submodules https://github.com/botz-pillar/contextOS-personal.git ~/context-os
+git clone --recurse-submodules https://github.com/joshbotz/contextOS-personal.git ~/context-os
 cd ~/context-os
 claude
 ```
 
 ### Solo (no team)
 ```bash
-git clone https://github.com/botz-pillar/contextOS-personal.git ~/context-os
+git clone https://github.com/joshbotz/contextOS-personal.git ~/context-os
 cd ~/context-os
 claude
 ```
@@ -158,7 +158,7 @@ When someone on the team PRs an update to the shared repo, every member gets it 
 Before rolling out to the team, customize the team repo:
 
 ```bash
-git clone https://github.com/botz-pillar/contextOS-team.git
+git clone https://github.com/joshbotz/contextOS-team.git
 cd contextOS-team
 claude
 ```

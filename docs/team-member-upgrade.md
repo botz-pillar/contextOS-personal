@@ -82,7 +82,7 @@ head -20 CLAUDE.md 2>/dev/null
 
 Produce a short summary to the user, e.g.:
 
-> I'm in `/path/to/context-os`. This is a clone of `https://github.com/botz-pillar/contextOS-personal.git` on branch `main`, last commit `abc1234`.
+> I'm in `/path/to/context-os`. This is a clone of `https://github.com/joshbotz/contextOS-personal.git` on branch `main`, last commit `abc1234`.
 >
 > Uncommitted changes: none / [list]
 > Submodules: `shared-context` → [URL], [synced/not synced]. `lab-data` → [present/missing].
@@ -287,7 +287,7 @@ For `lab-data` specifically (AI-CSL lab data):
 ```bash
 # Only if not already declared
 grep -q "lab-data" .gitmodules 2>/dev/null || \
-  git submodule add https://github.com/botz-pillar/ai-csl-data.git lab-data
+  git submodule add https://github.com/joshbotz/ai-csl-data.git lab-data
 git submodule update --init --recursive lab-data 2>/dev/null || true
 ```
 
